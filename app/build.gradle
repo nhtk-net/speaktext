@@ -3,10 +3,7 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         debug {
-            storeFile file('E:\\Flutter\\eoc_ert\\assets\\images\\key.jks')
-            storePassword 'VnPtIt&42PnT'
-            keyPassword 'VnPtIt&42PnT'
-            keyAlias 'key'
+
         }
     }
     compileSdkVersion 29
